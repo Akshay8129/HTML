@@ -1,0 +1,28 @@
+body {
+  background-color: lightgreen;
+}
+img {
+  border-radius: 8px;
+}
+
+h1 {
+  color: yellow;
+  margin-left: 20px;
+	font-family: Fantasy;
+}
+p {
+ 
+	font-family: Cursive;
+}
+h3 {
+  color: blue;
+  margin-left: 20px;
+	font-family: fantasy;
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+}

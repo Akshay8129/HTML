@@ -1,0 +1,23 @@
+<html>
+<body>
+<h1>Reverse</h1>
+<script type="text/javascript">
+var x = parseInt(prompt('Enter the number: '));
+var temp=x;
+var rev=0;
+while(x>0){
+	num=x%10;
+	rev=(rev*10)+num;
+   	x=Math.floor(x/10);
+}
+document.write("The Reverse is =",rev+"<br>");
+if(temp==rev){
+	document.write("The number is paliandrome");
+}else{
+	document.write("The number is not paliandrome");
+}
+</script>
+</body>
+</html>
+
+	
